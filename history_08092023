@@ -1,0 +1,31 @@
+   0 mkdir /home/animals
+   1 cd/home/animals
+   2 cd /home/animals
+   3 mkdir dogs cats fish
+   4 ls
+   5 cd /home/animals/dogs
+   6 touch pluto
+   7 cd /home/animals/cats
+   8 touch garfield
+   9 ca /home/animals/fich
+  10 cd /home/animals/fich
+  11 cd /home/animals/fish
+  12 touch nemo
+  13 touch /tmp/adam
+  14 mkdir /home/humans
+  15 cp /tmp/adam/ /home/humans
+  16 cp /tmp/adam /home/humans
+  17 touch /tmp/evA
+  18 mv /tmp/evA /opt/eve
+  19 mv /opt/eve /home/humans
+  20 ls /home/humans
+  21 history
+  22 history >history_08092023
+  23 history>history_08092023
+  24 history>history08092023
+  25 history
+  26 export history08092023
+  27 export_history08092023
+  28 export history_08092023
+  29 cd
+  30 history > history_08092023
