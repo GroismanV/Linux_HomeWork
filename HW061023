@@ -1,0 +1,14 @@
+
+nano myfirstbashscript.sh
+
+//в редакторе NANO
+#!/bin/bash
+USER="VLAD"
+CURRENT_DIR=$(whereis myfirstbashscript.sh)
+echo "Сегодняшняя дата: $(date)"
+echo "Привет, $USER!"
+echo "Текущая директория:$CURRENT_DIR"
+//выход из редактора с сохранением
+
+chmod ugo+x myfirstbashscript.sh 
+./myfirstbashscript.sh
