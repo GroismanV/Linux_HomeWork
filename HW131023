@@ -1,0 +1,30 @@
+   0 nano sleeper.sh
+   1 chmod +x sleeper.sh
+   2 ./sleeper.sh
+   
+содержимое sleeper.sh
+
+#!/bin/bash
+# Пишем дату и количество процессов 10 раз с интервалом в 5 секунд
+ 
+        for run in {1..10}
+         do
+        current_time=$(date "+%H:%M:%S")
+        process_count=$(ps -ef | wc -l)
+        echo "$current_time $process_count"
+        #sleep 5
+        done
+ 
+cat /proc/cpuinfo > cpu_info.txt
+cat os-relase | grep "NAME" | awk -F'=' '{print$2}' > os_info.txt
+cat os-relase | grep "NAME=" | awk -F'=' '{print $2}' | sed 's/"//g' > os_name.txt
+
+
+ 
+        for i in {50..100}
+         do
+        touch "${i}.txt"
+        done
+echo "Скрипт выполнен!"
+
+
